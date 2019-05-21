@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IdeaProjects.com.tdu.testSSM.iml" filepath="$PROJECT_DIR$/.idea/modules/IdeaProjects.com.tdu.testSSM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.tdu.testSSM.iml" filepath="$PROJECT_DIR$/.idea/modules/com.tdu.testSSM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.tdu.testSSM.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.tdu.testSSM.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.tdu.testSSM.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.tdu.testSSM.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/testSSM.com.tdu.testSSM.main.iml" filepath="$PROJECT_DIR$/.idea/modules/testSSM.com.tdu.testSSM.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/testSSM.com.tdu.testSSM.test.iml" filepath="$PROJECT_DIR$/.idea/modules/testSSM.com.tdu.testSSM.test.iml" />
+    </modules>
+  </component>
+</project>
