@@ -2,7 +2,6 @@ package com.tdu.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.google.gson.Gson;
-import com.tdu.pojo.User;
 import com.tdu.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
