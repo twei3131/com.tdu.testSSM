@@ -5,4 +5,6 @@ import com.tdu.pojo.User;
 public interface UserService
 {
     public Boolean addUser(String username, String password) throws Exception;
+
+    public User getUserById(String id) throws  Exception;
 }

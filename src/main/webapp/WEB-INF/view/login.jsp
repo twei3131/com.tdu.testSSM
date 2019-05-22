@@ -17,9 +17,10 @@
             $btn.button('loading');
             setTimeout(function(){
                 $btn.button('reset');
-                $.post('<%=request.getContextPath()%>/user/addUser.action',{"name":"123","pwd":"123"},function (data) {
+                $.post('<%=request.getContextPath()%>/user/addUser.action',{"name":"陶伟123","pwd":"123"},function (data) {
                     var obj = JSON.parse(data);
                     alert(obj.result);
+                    window.location.href = "<%=request.getContextPath()%>/user/toUser.action?uid=25"
                 })
             }, 5000);
         });

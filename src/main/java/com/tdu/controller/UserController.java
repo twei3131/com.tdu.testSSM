@@ -1,5 +1,6 @@
 package com.tdu.controller;
 
+import com.alibaba.fastjson.JSON;
 import com.google.gson.Gson;
 import com.tdu.pojo.User;
 import com.tdu.services.UserService;
@@ -39,5 +40,21 @@ public class UserController
         Gson gson = new Gson();
         String json = gson.toJson(map);
         return json;
+    }
+
+    @RequestMapping(value = "/toUser.action")
+    public String toUser(HttpServletRequest request, HttpServletResponse response) throws Exception
+    {
+        String uid = request.getParameter("uid");
+        request.setAttribute("uid",uid);
+        return "/user";
+    }
+
+    @RequestMapping(value = "/getUserById.action",produces = "application/json;charset=utf-8")
+    @ResponseBody
+    public String getUserById(HttpServletRequest request, HttpServletResponse response) throws Exception
+    {
+        String uid = request.getParameter("uid");
+        return JSON.toJSONString(userService.getUserById(uid));
     }
 }

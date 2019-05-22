@@ -18,4 +18,9 @@ public class UserServiceImpl implements UserService
         user.setPassword(password);
         return userMapper.saveUser(user) == 1;
     }
+
+    public User getUserById(String id) throws  Exception
+    {
+        return userMapper.getUserById(id);
+    }
 }
