@@ -4,4 +4,7 @@
     <insert id="saveUser" parameterType="User">
         INSERT INTO `user`(nick,name,password) VALUES(#{nick},#{name},#{password})
     </insert>
+    <select id="getUserById" parameterType="String" resultType="User">
+        select * from `user` where id = #{0}
+    </select>
 </mapper>
