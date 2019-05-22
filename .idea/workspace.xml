@@ -6,10 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4d90e11-d3e9-4678-8ff6-1338352d9926" name="Default Changelist" comment="" />
-    <list id="e9ed524c-4526-4bcb-a612-9757776e0c6e" name="Revert &quot;third&quot;" comment="Revert &quot;third&quot;&#10;&#10;This reverts commit 2eb642e9">
+    <list default="true" id="d4d90e11-d3e9-4678-8ff6-1338352d9926" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tdu/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tdu/mapper/UserMapper.xml" afterDir="false" />
     </list>
+    <list id="e9ed524c-4526-4bcb-a612-9757776e0c6e" name="Revert &quot;third&quot;" comment="fourth" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -193,15 +194,6 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tdu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.tdu.testSSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testSSM" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tdu" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -567,7 +559,7 @@
       <workItem from="1558460796767" duration="2926000" />
       <workItem from="1558464602808" duration="29000" />
       <workItem from="1558464772892" duration="40000" />
-      <workItem from="1558488153479" duration="924000" />
+      <workItem from="1558488153479" duration="1131000" />
     </task>
     <task id="LOCAL-00001" summary="second">
       <created>1558464474339</created>
@@ -590,11 +582,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558488803062</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Revert &quot;third&quot;&#10;&#10;This reverts commit 2eb642e91aeba581de19f53507c30e8f178d0d51.">
+      <created>1558489302260</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558489302260</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fourth">
+      <created>1558489395559</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558489395559</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24267000" />
+    <option name="totallyTimeSpent" value="24474000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -629,13 +635,13 @@
       <window_info anchor="bottom" id="Spring" order="9" weight="0.32941177" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49852726" weight="0.32941177" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5014728" side_tool="true" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50073636" side_tool="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.49852726" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.49852726" weight="0.32941177" />
       <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.49779087" weight="0.32941177" />
       <window_info anchor="bottom" id="Thumbnails" order="17" sideWeight="0.4992636" weight="0.32941177" />
-      <window_info anchor="bottom" id="Messages" order="18" weight="0.32941177" />
+      <window_info anchor="bottom" id="Messages" order="18" sideWeight="0.4992636" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -725,7 +731,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second" />
     <MESSAGE value="third" />
-    <option name="LAST_COMMIT_MESSAGE" value="third" />
+    <MESSAGE value="Revert &quot;third&quot;&#10;&#10;This reverts commit 2eb642e91aeba581de19f53507c30e8f178d0d51." />
+    <MESSAGE value="fourth" />
+    <option name="LAST_COMMIT_MESSAGE" value="fourth" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/config/spring/applicationContext-service.xml" />
